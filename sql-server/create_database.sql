@@ -6,3 +6,8 @@ ON PRIMARY (
 	MAXSIZE=15MB,
 	FILEGROWTH=10%
 )
+
+-- Obs: Create LibSys folder in C: before run code.
+
+USE db_Library
+-- sp_helpdb db_Library
